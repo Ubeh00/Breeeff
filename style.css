@@ -1,0 +1,142 @@
+.Pac1, .Pac2{
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 370px;
+    border-radius: 50px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background:hsl(213, 19%, 18%);
+}
+
+body{
+    background:hsl(216, 15%, 10%);
+    margin: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.star-icon{
+background-color: hsl(213, 9%, 24%);
+border-radius: 50%;
+width: 15px;
+height: 18px;
+padding: 0.8rem;
+}
+
+.text-one{
+    color: white;
+    font-family: Acherus grotesque, sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+}
+
+.text-two{
+    color: rgb(137, 135, 135);
+    font-family: Acherus grotesque, sans-serif;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    line-height: 23px;
+}
+
+.button button{
+    border-radius: 60px;
+    border-style: hidden;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 30px;
+    color: rgb(255, 255, 255);
+    background-color: hsl(213, 9%, 24%);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.button{
+    word-spacing: 15px;
+}
+
+.submit-btn{
+    background-color: rgb(244, 113, 26);
+    width: 90%;
+    height: 10%;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.submit-btn:hover{
+    background-color: rgb(205, 203, 203);
+    color:rgb(244, 113, 26);
+}
+
+#submit{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: Acherus grotesque, sans-serif; font-size: smaller;
+    padding: 10px;
+}
+
+.button button:hover{
+    background-color: rgb(244, 113, 26);;
+}
+
+.button button:focus{
+    background-color: rgb(172, 172, 172);
+}
+
+/* This is for Thank you page */
+.main-two{
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 380px;
+    border-radius: 50px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background:hsl(213, 19%, 18%);
+}
+
+.hidden{
+    display: none;
+}
+
+.thanks{
+    display: block;
+    height: 105px;
+    padding: 20px;
+    text-align: center;
+}
+
+.text-three{
+    background-color: hsl(214, 9%, 30%);
+    border-radius: 30px;
+    padding: 0 0.2rem;
+    color: rgb(244, 113, 26);
+    font-family: Acherus grotesque, sans-serif; font-size: medium;
+    text-align: center;
+}
+
+.text-four{
+    color: white;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: Acherus grotesque, sans-serif; 
+    font-size: larger;
+}
+
+.text-five{
+    color: rgb(162, 160, 160);
+    font-family: Acherus grotesque, sans-serif; 
+    font-size: medium;
+    text-align: center;
+    line-height: 23px;
+}
